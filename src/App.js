@@ -15,9 +15,13 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Inputs ScrollClick={handleOnClick}/>
+      <div id="overall-container">
+        <div id="cat-div2"></div>
+        <Inputs ScrollClick={handleOnClick}/>
+        <div id="cat-div"></div>
+        <Analysis ref={ref} text="Our Analysis" />
+      </div>
       <div id="cat-div"></div>
-      <Analysis ref={ref} text="Our Analysis" />
     </div>
   );
 };

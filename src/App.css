@@ -19,7 +19,7 @@ header {
 
 .title-container {
   margin: auto;
-  font-size: 1.0em;
+  font-size: 1.5em;
 }
 
 #subnav-title {
@@ -42,9 +42,12 @@ header a:hover {
 #explain {
   text-align: center;
   padding-top: 20px;
-  font-size: 1.5rem;
+  font-size: 2.6rem;
   font-weight: bold;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
 }
 
 #input-container {
@@ -60,14 +63,16 @@ header a:hover {
   width: 60%;
   height: 100%;
   align-self: center;
-  
-  
+  border-style: solid;
+  border-color: white;
+  border-radius: 12px;
 }
 
 #ip2 {
   text-align: center;
   border-radius: 12px;
-  padding: 5px;
+  padding: 20px;
+  opacity: 20%;
 }
 
 #submit-button {
@@ -75,23 +80,38 @@ header a:hover {
   margin-top: 20px;
   border-radius: 15px;
   padding: 10px;
+  background-color: transparent;
+  transition: all 0.4s ease 0s;
+  border-color: white;
+  border-style: solid;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
 #submit-button:hover{
-  text-shadow: #282c34;
+  background: lightblue;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
 }
 
 #main-container {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  color: white;
   
 }
-
-#page-head-2 {
+#title-container {
   text-align: center;
   padding: 20px;
+  font-size: 2rem;
 }
+
 
 
 #under-bar {
@@ -113,7 +133,97 @@ header a:hover {
   text-align: center;
 }
 #cat-div {
-  height: 2000px;
+  height: 650px;
+}
+#cat-div2 {
+  height: 180px;
+}
+
+#bias-container {
+  text-align: center;
+  align-self: center;
+  padding: 20px;
+}
+#bias-title{
+  font-size: 2rem;
+}
+#rectangle {
+  padding: 20px;
+  height: 60px;
+  width: 800px;
+  background-color: none;
+  margin-top: 20px;
+  border-style: solid;
+  background-image: linear-gradient(to right, rgba(255,0,0,1), rgba(0,0,255,1));
+}
+
+#left-icon {
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.4s ease 0s;
+}
+#left-icon:hover {
+  background: lightblue;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+#overall-container {
+  background-color: purple;
+}
+
+#right-icon {
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.4s ease 0s;
+}
+
+#right-icon:hover {
+  background: lightblue;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+#main-title-bar {
+  width: 35%;
+  align-self: center;
+  margin-bottom: 2%;
+}
+
+#main-title-sub {
+  color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 2%;
+  word-spacing: .2rem;
+  font-size: 1.3rem;
+}
+#sub-title-container {
+  align-self: center;
+  padding: 20px;
+ 
+}
+
+#main-title-sub2{
+  align-self: center;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin: 20px;
+  border-style: solid;
+  border-radius: 12px;
+  padding: 5px;
+  width: 30%;
 }
 /* Navbar.css */
 
