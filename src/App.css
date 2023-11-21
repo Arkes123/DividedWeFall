@@ -1,11 +1,9 @@
 
-
-/* YourComponent.css or styles.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Raleway:wght@700&family=Rubik:wght@700&display=swap');
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica;
+  font-family: 'Rubik', sans-serif;
   
 }
 
@@ -14,7 +12,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 10px 30px;
-  box-shadow: 0 1px 8px #ddd;
+  font-family: 'Rubik', sans-serif;
 }
 
 .title-container {
@@ -48,6 +46,7 @@ header a:hover {
   padding-left: 20px;
   padding-right: 20px;
   color: white;
+  font-family: 'Josefin Sans', Arial;
 }
 
 #input-container {
@@ -79,7 +78,8 @@ header a:hover {
   margin: auto;
   margin-top: 20px;
   border-radius: 15px;
-  padding: 10px;
+  padding: 20px;
+  font-size: 20px;
   background-color: transparent;
   transition: all 0.4s ease 0s;
   border-color: white;
@@ -136,7 +136,7 @@ header a:hover {
   height: 650px;
 }
 #cat-div2 {
-  height: 180px;
+  height: 50px;
 }
 
 #bias-container {
@@ -173,7 +173,8 @@ header a:hover {
 }
 
 #overall-container {
-  background-color: purple;
+  background-color: black;
+  border-color: ;
 }
 
 #right-icon {
@@ -220,10 +221,45 @@ header a:hover {
   text-align: center;
   font-size: 2em;
   margin: 20px;
+  font-weight: bold;
   border-style: solid;
   border-radius: 12px;
   padding: 5px;
   width: 30%;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+#grid-container {
+  display: flex;
+  margin-top: 100px;
+}
+#column-2 {
+  margin-right: 80px;
+}
+#grid-1 {
+  border-radius: 11px;
+  border: 1px solid #000;
+  background: white;
+  width: 200px;
+  height: 200px;
+  font-size: 3rem;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-right: 30px;
+  text-shadow: grey 3px -1px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+#column-1 {
+  flex: 1;
+  flex-basis: 25%;
+  padding-left: 80px;
+}
+#column-2 {
+  flex: 3;
+  flex-basis: 75%;
 }
 /* Navbar.css */
 
