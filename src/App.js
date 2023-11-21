@@ -4,8 +4,7 @@ import Inputs from './components/Inputs.jsx';
 import Analysis from './components/Analysis.jsx';
 import { useRef } from 'react';
 
-
-const App = () => {
+function App() {
 
   const ref = useRef(null);
 
@@ -16,9 +15,9 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Inputs OnClick={handleOnClick}/>
+      <Inputs ScrollClick={handleOnClick}/>
       <div id="cat-div"></div>
-      <Analysis ref={ref} text="Our Analysis"/>
+      <Analysis ref={ref} text="Our Analysis" />
     </div>
   );
 };

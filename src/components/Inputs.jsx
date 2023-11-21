@@ -1,8 +1,8 @@
 import '../App.css';
 import React from 'react';
-import { useRef } from 'react';
 
-function Inputs() {
+const Inputs = ({ ScrollClick }) => {
+
     return (
         <div id="input-container">
             <label id="explain">
@@ -11,7 +11,7 @@ function Inputs() {
             <form id="form-container">
                 <input placeholder='Input Twitter Link' type="text" id="ip2"/>
             </form>
-            <button onClick={handleOnClick} id="submit-button">Submit Link</button>
+            <button onClick={ScrollClick} id="submit-button">Submit Link</button>
         </div>
 
         
