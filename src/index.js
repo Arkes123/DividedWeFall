@@ -1,3 +1,9 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import MyComponent from './MyComponent';
+
+ReactDOM.render(<MyComponent />, document.getElementById('root'));
+
 var port = process.env.PORT || 3000,
     http = require('http'),
     fs = require('fs'),
